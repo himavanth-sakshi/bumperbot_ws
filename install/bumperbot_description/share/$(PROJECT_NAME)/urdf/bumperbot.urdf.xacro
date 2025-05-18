@@ -1,0 +1,35 @@
+<?xml version ="1.0"?>
+
+<!-- robot = main tag under which robot is defined-->
+<!-- since the system doesnt know what is xacro  we use xmlns:xacro= "http://www.ros.org/wiki/xacro"-->
+
+
+<robot xmlns:xacro= "http://www.ros.org/wiki/xacro" name ="bumperbot">
+    
+    <!--we are not linking anything as it is the parent link-->
+    <link name="base_footprint"/>
+
+    <!--first link to parent-->
+    <link name="base_link">
+    <!--start with how it looks-->
+        <visual>
+    <!--give it the location w.r.t origin-->
+            <origin rpy="0 0 0" xyz="0 0 0"/>
+            <geometry>
+                <!--extracting the mesh from file-->
+                <mesh filename="package://bumperbot_description/meshes/base_link.STL" scale="1.0"/>
+            </geometry>
+        </visual>
+    </link>
+
+
+<!-- creating joints between base_footprint and base_link-->
+    <joint name="base_joint" type="fixed">
+        <parent link ="base_footprint"/>
+        <child link="base_link"/>
+        <!--here origin is relative position of child wrt parent. It is 33cm, check diagram-->
+        <origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.033" />
+    </joint>    
+
+
+</robot>

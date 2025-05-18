@@ -1,0 +1,25 @@
+-- Install configuration: ""
+-- Installing: /home/vboxuser/bumperbot_ws/install/bumperbot_description/share/$(PROJECT_NAME)/meshes
+-- Installing: /home/vboxuser/bumperbot_ws/install/bumperbot_description/share/$(PROJECT_NAME)/meshes/base_link.STL
+-- Installing: /home/vboxuser/bumperbot_ws/install/bumperbot_description/share/$(PROJECT_NAME)/meshes/imu_link.STL
+-- Installing: /home/vboxuser/bumperbot_ws/install/bumperbot_description/share/$(PROJECT_NAME)/meshes/wheel_right_link.STL
+-- Installing: /home/vboxuser/bumperbot_ws/install/bumperbot_description/share/$(PROJECT_NAME)/meshes/caster_front_link.STL
+-- Installing: /home/vboxuser/bumperbot_ws/install/bumperbot_description/share/$(PROJECT_NAME)/meshes/caster_rear_link.STL
+-- Installing: /home/vboxuser/bumperbot_ws/install/bumperbot_description/share/$(PROJECT_NAME)/meshes/wheel_left_link.STL
+-- Installing: /home/vboxuser/bumperbot_ws/install/bumperbot_description/share/$(PROJECT_NAME)/urdf
+-- Installing: /home/vboxuser/bumperbot_ws/install/bumperbot_description/share/$(PROJECT_NAME)/urdf/bumperbot.urdf.xacro
+-- Installing: /home/vboxuser/bumperbot_ws/install/bumperbot_description/share/ament_index/resource_index/package_run_dependencies/bumperbot_description
+-- Installing: /home/vboxuser/bumperbot_ws/install/bumperbot_description/share/ament_index/resource_index/parent_prefix_path/bumperbot_description
+-- Installing: /home/vboxuser/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/environment/ament_prefix_path.sh
+-- Installing: /home/vboxuser/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/environment/ament_prefix_path.dsv
+-- Installing: /home/vboxuser/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/environment/path.sh
+-- Installing: /home/vboxuser/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/environment/path.dsv
+-- Installing: /home/vboxuser/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/local_setup.bash
+-- Installing: /home/vboxuser/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/local_setup.sh
+-- Installing: /home/vboxuser/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/local_setup.zsh
+-- Installing: /home/vboxuser/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/local_setup.dsv
+-- Installing: /home/vboxuser/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/package.dsv
+-- Installing: /home/vboxuser/bumperbot_ws/install/bumperbot_description/share/ament_index/resource_index/packages/bumperbot_description
+-- Installing: /home/vboxuser/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/cmake/bumperbot_descriptionConfig.cmake
+-- Installing: /home/vboxuser/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/cmake/bumperbot_descriptionConfig-version.cmake
+-- Installing: /home/vboxuser/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/package.xml
