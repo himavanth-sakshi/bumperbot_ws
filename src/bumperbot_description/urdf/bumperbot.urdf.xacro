@@ -17,7 +17,7 @@
             <origin rpy="0 0 0" xyz="0 0 0"/>
             <geometry>
                 <!--extracting the mesh from file-->
-                <mesh filename="package://bumperbot_description/meshes/base_link.STL" scale="10.0"/>
+                <mesh filename="package://bumperbot_description/meshes/base_link.STL" scale="1.0"/>
             </geometry>
         </visual>
     </link>
@@ -59,7 +59,7 @@
     </link>
 
 
-    <joint name="wheel_leftt_joint" type="continuous">
+    <joint name="wheel_left_joint" type="continuous">
         <parent link ="base_link"/>
         <child link="wheel_left_link"/>
         <axis xyz="0.0 1.0 0.0"/>
@@ -71,7 +71,7 @@
         <visual>
             <origin rpy="0 0 0" xyz = "0 0 0"/>
             <geometry>
-                <mesh filename="package://bumperbot_description/meshes/castor_front_link.STL" scale="1.0"/>
+                <mesh filename="package://bumperbot_description/meshes/caster_front_link.STL" scale="1.0"/>
             </geometry>  
         </visual>   
     </link>
@@ -87,7 +87,7 @@
         <visual>
             <origin rpy="0 0 0" xyz = "0 0 0"/>
             <geometry>
-                <mesh filename="package://bumperbot_description/meshes/castor_rear_link.STL" scale="1.0"/>
+                <mesh filename="package://bumperbot_description/meshes/caster_rear_link.STL" scale="1.0"/>
             </geometry>  
         </visual>   
     </link>
