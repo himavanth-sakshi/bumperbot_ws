@@ -1,0 +1,12 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/vboxuser/bumperbot_ws/install/bumperbot_py_examples/lib/python3.8/site-packages",
+        "/home/vboxuser/Documents/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages",
+        "/opt/ros/jazzy/lib/python3.12/site-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/vboxuser/bumperbot_ws/install/bumperbot_py_examples/lib/python3.8/site-packages",
+        "/home/vboxuser/Documents/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages",
+        "/opt/ros/jazzy/lib/python3.12/site-packages"
+    ]
+}
